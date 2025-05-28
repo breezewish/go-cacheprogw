@@ -1,0 +1,22 @@
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Ignore coverage files
+gcov*
+*.coverprofile
+*.cover.out
+
+# Ignore byproducts of Go tools
+*.prof
+*.pb.go
+
+# Ignore build artifacts from cgo
+_cgo_*
